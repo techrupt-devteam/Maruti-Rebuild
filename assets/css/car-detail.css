@@ -1,0 +1,445 @@
+.header_intro_bg-image {
+    background-image: url('../images/dzire/top-desk.png');
+    background-position: center center;
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+.inner-intro {
+    height: 410px;
+}
+.newCar-details {
+    font-family: 'Poppins', sans-serif;
+}
+.inner-intro {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 410px;
+}
+.intro-title {
+    padding-bottom: 30px;
+}
+.inner-intro .intro-title.title-left h1 {
+    margin-bottom: 0px;
+}
+.inner-intro h1 {
+    color: #ffffff;
+}
+.header_intro_opacity::before {
+    background-color: rgba(0,0,0,0.7);
+}
+.header_intro_opacity::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+ul.page-breadcrumb li.home {
+    padding-left: 22px;
+}
+ul.page-breadcrumb li {
+    color: #fff;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding-left: 18px;
+    margin-right: 8px;
+}
+ul.page-breadcrumb li.home::before {
+    content: "\f015";
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+ul.page-breadcrumb li::before {
+    content: "\f101";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 900;
+}
+ul.page-breadcrumb li span {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+ul.page-breadcrumb li a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+ul.page-breadcrumb li span {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+.car-details .car-price {
+    position: relative;
+    display: block;
+}
+.car-details .car-price .old-price {
+    color: #666;
+    font-size: 16px;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+.car-price .new-price {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #1a1a46;
+}
+.car-details .car-price p {
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.cd-detail-page ul.list-style-1 li {
+    margin: 3px 0;
+}
+ul.list-col-3 li {
+    width: 33.33%;
+    float: left;
+    color: #444;
+    font-size: 13px;
+    margin: 5px 0px;
+}
+ul.list-col-3 li i {
+    margin-right: 7px;
+    color: #f00;
+}
+.car-detail-post-option {
+    border: 1px solid #eaeaea;
+    background: #fcfcfc;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+.car-detail-post-option > ul {
+    float: left;
+    padding-left: 0;
+}
+.car-detail-post-option > ul li {
+    list-style-type: none;
+    float: left;
+    
+}
+.car-detail-post-option > ul li a {
+    color: #323232;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+}
+.car-detail-post-option > ul li a i {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #303295;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #ffffff;
+    -webkit--transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.car-detail-post-option > .details-social {
+    float: right;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.share {
+    position: relative;
+    cursor: pointer;
+}
+.car-detail-post-option .details-social.share h5 {
+    font-size: 14px;
+    text-transform: none;
+    padding-right: 5px;
+    font-weight: 400;
+    display: table-cell;
+}
+.car-detail-post-option .details-social.share .single-share-box, .car-detail-post-option .details-social.share:hover .single-share-box {
+    position: relative;
+    right: 0;
+    opacity: 1;
+    bottom: 0;
+    z-index: 1;
+    display: table-cell;
+}
+.car-detail-post-option .details-social.share .single-share-box li {
+    display: inline-block;
+}
+.share .single-share-box li {
+    list-style: none;
+    padding-top: 2px;
+    display: table-cell;
+    padding-left: 5px;
+}
+.share .single-share-box li a {
+    width: 30px;
+    height: 30px;
+    background: #303295;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #ffffff !important;
+    line-height: 30px;
+    font-size: 12px;
+}
+.mid-nav{
+    padding: 25px 0;
+    top: 57px;
+}
+.product-carousel .item .productItems .proudctFooter .product-content {
+    padding: 25px;
+    background: rgb(47, 48, 147);
+    text-align: center;
+    border: 2px solid #fff;
+}
+.product-carousel .item .productItems .proudctFooter ul li h3 {
+    font-size: 14px;
+    margin: 5px;
+    color: #fff;
+}
+.mileage h4 {
+    color: #fff;
+}
+.product-content .terms.mileage {
+    color: #fff;
+}
+.product-carousel .item .productItems .proudctFooter .last-termsP{
+    color: #fff;
+}
+.product-content ul li h4 {
+    color: #fff;
+}
+.car-details-sidebar .details-weight {
+    margin-bottom: 30px;
+}
+.car-details-sidebar h5 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.car-details-sidebar h5::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: #db2d2e;
+        background-color: rgb(219, 45, 46);
+    left: 0;
+    bottom: 0px;
+}
+.car-details-sidebar .details-block.details-weight ul {
+    padding-left: 0;
+}
+.car-details-sidebar .details-block ul li {
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 5px;
+}
+.car-details-sidebar .details-block ul li span {
+    width: 150px;
+    display: table-cell;
+}
+.car-details-sidebar .details-block ul li strong {
+    display: table-cell;
+    text-align: left;
+    color: #363636;
+    vertical-align: top;
+}
+.car-details-sidebar .details-block ul li:last-child {
+    border-bottom: 0px;
+}
+.car-details .tabcontent .technical {
+    width: 100%;
+    margin-bottom: 25px;
+}
+table th, table td {
+    border: 1px solid #dedede;
+    padding: 10px;
+}
+.technical {
+    margin: 18px 0px;
+    width: 100%;
+}
+
+
+
+/*secound design*/
+.page-section-ptb, .content-wrapper-vc-enabled, .content-wrapper.blog {
+    padding: 80px 0;
+}
+.details-nav {
+    margin: 30px 0px 20px;
+}
+.details-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.details-nav ul li {
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+.details-nav ul li a {
+    color: #2f2f2f;
+    background: transparent;
+    border: 1px solid #2d3094;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.details-nav ul li a i {
+    padding-right: 10px;
+}
+.form-group label {
+    color: #444;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.fuel-efficiency-detail {
+    border: none;
+    background: #db2d2e;
+        background-color: rgb(219, 45, 46);
+    color: #ffffff;
+    padding: 25px 15px;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.fuel-efficiency-detail label {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: block;
+}
+.fuel-efficiency-detail .city_mpg, .fuel-efficiency-detail .highway_mpg {
+    font-size: 30px;
+    font-weight: 700;
+}
+.widget {
+    margin-bottom: 40px;
+}
+.widget .widgettitle {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.fuel-efficiency-detail .heading h4 {
+    text-transform: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+.fuel-efficiency-detail p {
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 16px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.form-group input, .form-group textarea, .news-letter .form-control {
+    width: 100%;
+    resize: vertical;
+    background: #f6f6f6;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    margin-bottom: 15px;
+}
+.btn-primary {
+    background-color: #2f3094;
+    border-color: #303195;
+    border-radius: 0;
+}
+  .carousel-inner img {
+    width: 100%;
+    height: 100%
+}
+
+  #custCarousel .carousel-indicators {
+      position: static;
+      margin-top: 20px
+  }
+
+  #custCarousel .carousel-indicators>li {
+      width: 100px;
+        height: 100px;
+        display: flex;
+  }
+#custCarousel .carousel-indicators>li a{
+    align-self: center;
+}
+  #custCarousel .carousel-indicators li img {
+      display: block;
+      opacity: 0.5
+  }
+
+  #custCarousel .carousel-indicators li.active img {
+      opacity: 1
+  }
+
+  #custCarousel .carousel-indicators li:hover img {
+      opacity: 0.75
+  }
+
+  .car-details-sidebar {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 40px 25px;
+}
+.widget.financing_calculator  {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 40px 25px;
+    margin-bottom: 30px;
+}
+.tab-content.my-4 {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 40px 25px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%
+}
