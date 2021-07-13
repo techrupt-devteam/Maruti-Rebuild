@@ -1,13 +1,12 @@
 <?php 
-$servername = "localhost";
+  $servername = "localhost";
 
- $username = "marutise_seva_new";  //marutise_new_sev
+  $username = "root"; 
+ 
+  $password  = "";
 
-// $password = "9sBAOYro4e5y";
-$password  = "HQX2BOQZ2PBO";
-
-$dbname    = "marutise_seva_updated";
- $conn     = new mysqli($servername, $username, $password, $dbname);
+  $dbname    = "marutiseva_new";
+  $conn     = new mysqli($servername, $username, $password, $dbname);
 
         // Check connection
 
